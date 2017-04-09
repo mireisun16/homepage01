@@ -1,0 +1,299 @@
+body {
+    padding-top: 75px;
+    /*color: #34495e;*/
+    background: url(../images/back.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0;
+    font-weight: 300;
+    font-family: 'Lato', "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "Yu Gothic", YuGothic,"ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, sans-serif;
+}
+/* ヘッダーのスタイル*/
+.header-style{
+	border-top:3px solid #f28531;
+	border-bottom:none;
+	background-color:white;
+}
+/* hamburgerアイコンの色*/
+.color-hamburger{
+    background-color: #FF8525 !important;
+}
+/* ロゴのサイズ　pc&sp*/
+.img-logo{
+	height:40px;
+    margin-top: 5px;
+}
+
+.ul-oya{/* media */
+	border-top: 0;
+	box-sizing: border-box;
+	padding:0px 15px !important;
+}
+.collapse .navbar-collapse ul{
+	transition: .5s all ease-out;
+    text-decoration: none;
+    opacity: 1.0;
+}
+.navbar-inverse .navbar-nav li {
+	width:20%;
+	height:100%;
+	text-align:center;
+}
+
+.intro-moji {
+    position: absolute;
+    color: black;
+    border: solid 8px black;
+    padding: 20px;
+    width: 80%;
+    top: 50px;
+    left: 50%;
+    margin: 10% 0 0 0;
+    text-align: center;
+    margin-left: -40%;
+    background:rgba(255,255,255,.3);
+}
+.intro-moji h2 {
+    font-size: 32px;
+    letter-spacing: 12px;
+    line-height: 47px;
+    font-weight: 400;
+}
+.padding-grid{
+	padding: 50px 0 80px;
+}
+.back-img{
+	background: url(http://infratop.jp/assets/images/bg_reap.png) 
+}
+.page-header{
+	text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto 40px;
+  font-weight: 200;
+}
+.color-orange{	
+  color: #FF9A4B;
+}
+.centering{
+	margin: auto;
+  display: block;
+}
+.row > div {
+  margin-bottom: 10px !important;
+}
+
+#news p{
+	color:white;
+  font-weight: 200;
+  height:26px;
+}
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+.services p{
+	margin-top: 25px;
+	color: #34495e;
+  height:75px;
+}
+.white_box{
+  font-weight: bolder;
+  margin-right: 10px;
+  font-size: 16px;
+  color: white;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #FF8525;
+  padding: 5px;
+  margin: 0 10px;
+}
+.seemore{
+	font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  margin-top: 30px;
+  background-color: #FF8525;
+  color: white;
+}
+
+.mentor-header h3{
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding-bottom: 20px;
+  border-bottom: 1px white solid;
+  margin: 0 auto 20px;
+}
+.mentor {
+  width: 100%;
+  background-color: #FF9A4B;
+  box-sizing: border-box;
+}
+.mentor-container {
+  max-width: 1000px;
+  margin: 30px auto 70px;
+}
+.heading {
+  /* width: 970px; */
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding-bottom: 20px;
+  border-bottom: 1px white solid;
+  margin: 0 auto 20px;
+}
+.heading-alt{
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 auto 30px;
+}
+.mentor-box1 {
+  width: 480px;
+  float: left;
+  background-color: white;
+  margin-left: 15px;
+  position: relative;
+}
+.mentor-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  background-color: #FFCC66;
+  padding: 10px;
+  line-height: 1.5;
+  margin: 10px;
+}
+.border-white {
+  width: 480px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 68px;
+}
+.triangle-white {
+  width: 0;
+  height: 0;
+  border: 32px solid transparent;
+  border-right: 15px white solid;
+  position: absolute;
+  top: 10px;
+  right: 9.2px;
+}
+.mentor-description {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 11px;
+  line-height: 1.2;
+}
+.mentor-name {
+  font-size: 2.8rem;
+}
+.mentor-img {
+  margin: 10px;
+}
+.mentor-img-res {
+  display: none;
+}
+.mentor-box2 {
+  width: 480px;
+  float: right;
+  background-color: white;
+  margin-right: 15px;
+  position: relative;
+}
+.mentor-comment {
+  margin: 10px;
+  padding: 5px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.iframe1{
+  width: 400px;
+}
+.mannaka{
+  text-align: center;
+}
+#footer{
+  background-color: black;
+  font-weight: 100;
+  font-size: 12px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#footer p{
+  color: #fff !important;
+
+}
+#footer br{
+  display: none;
+}
+@media (max-width: 479px){
+  h2 {
+    font-size: 20px;
+  }
+  .intro-moji h2{
+    font-size: 18px !important;
+    letter-spacing: 12px;
+    line-height: 38px;
+    font-weight: bold;
+  }
+  .img-logo{
+    height: 25px; 
+  } 
+  .navbar-inverse .navbar-nav a { 
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    line-height: 25px;
+    width: 145px;
+  }
+  .heading {
+    margin: 0 auto;
+  }
+  .mentor-box1, .mentor-box2 {
+    width: 320px;
+    float:none;
+    margin:10px auto 20px;
+    padding-top:5px;
+  }
+  .mentor-heading{
+    font-size: 3px;
+  }
+  .mentor-comment {
+    font-size: 1.2rem;
+  }
+  .mentor-img{
+    display: none;
+  }
+  .mentor-img-res {
+    display: block;
+    margin: 10px auto;
+  }
+  .border-white {
+    width: 320px;
+    top: 60px;
+  }
+  #footer br{
+    display: inline;
+  }
+}
+
+
+
+
+
+
+
+
+
